@@ -1,0 +1,31 @@
+{
+  "project_name": "CashKlick",
+  "primary_directive": "Skip new design generation. REUSE original design from CashKlick repo.",
+  "theme": "light",
+  "archetype": "4 - Swiss & High-Contrast",
+  "typography": {
+    "heading": "Outfit",
+    "body": "IBM Plex Sans",
+    "rules": "Maintain existing typography from the repo. Use fluid scaling."
+  },
+  "colors": {
+    "background": "#FFFFFF",
+    "text": "#0A0A0A",
+    "primary": "#FF3B30",
+    "neutral": "#F3F4F6",
+    "rules": "Use the existing color palette defined in the CashKlick tailwind configuration. Maintain high contrast."
+  },
+  "layout": {
+    "spacing": "Strictly follow the original repository's padding and margin scale.",
+    "grid": "Bento grids for dashboards, wide gap-8 for marketing. Ensure direct children in grid."
+  },
+  "components": {
+    "shadcn": "Reuse existing Shadcn UI setup.",
+    "testing": "All interactive elements MUST include a data-testid attribute in kebab-case."
+  },
+  "motion": {
+    "rules": "Maintain original transition effects. Respect prefers-reduced-motion."
+  },
+  "image_urls": [],
+  "instructions_to_main_agent": "User explicitly requested to reuse the original design from the CashKlick repo. Do not overwrite core aesthetic choices unless fixing bugs or adding missing data-testid attributes. Ensure data-testid attributes are present on all key interactive elements."
+}
